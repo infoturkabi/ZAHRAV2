@@ -116,25 +116,28 @@ export const PACKAGES_DATA = {
 export const ADDONS_DATA = {
   tag: 'Add-ons',
   title: 'Cultural Entertainment',
-  description: 'Upgrade your event with authentic Turkish cultural performances.',
+  description: 'Upgrade your event with authentic Turkish cultural performances — create dreams, magic, and unforgettable experiences.',
   addons: [
     {
       icon: 'Users',
       title: 'Extra Showman / Stand',
       price: 'Rp 500.000',
       description: 'for larger events or longer shows.',
+      image: 'turkishIceCream',
     },
     {
       icon: 'CircleDot',
       title: 'Sufi Dancer (Whirling Dervish)',
       price: 'Rp 2.500.000',
       description: 'mesmerizing traditional performance.',
+      image: 'sufiDancer',
     },
     {
       icon: 'Music',
       title: 'Belly Dancer',
       price: 'Start Rp 2.000.000',
       description: 'exciting entertainment for celebrations.',
+      image: 'bellyDancer',
     },
   ],
 };
