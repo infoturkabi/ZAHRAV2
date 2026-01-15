@@ -259,28 +259,47 @@ const LandingPage = () => {
             })}
           </div>
 
-          {/* Meet the Team */}
-          <div className="mt-16 grid md:grid-cols-2 gap-6 max-w-4xl mx-auto">
-            <div className="bg-white rounded-2xl overflow-hidden border border-text-base/5 shadow-lg group">
-              <div
-                className="h-64 bg-cover bg-center transition-transform duration-500 group-hover:scale-105"
-                style={{ backgroundImage: `url(${IMAGES.owner})` }}
-              />
-              <div className="p-5">
-                <h3 className="font-display font-bold text-xl text-text-base">Meet the Founder</h3>
-                <p className="text-text-subtle font-medium mt-1">Bringing Turkish ice cream magic to Jakarta since 2011</p>
+          {/* Meet the Founders */}
+          <div className="mt-16 max-w-4xl mx-auto">
+            <h3 className="font-display font-bold text-2xl text-text-base text-center mb-8">Meet the Founders</h3>
+            <div className="bg-white rounded-2xl overflow-hidden border border-text-base/5 shadow-lg">
+              <div className="grid md:grid-cols-2">
+                <div
+                  className="h-72 md:h-80 bg-cover bg-center"
+                  style={{ backgroundImage: `url(${IMAGES.owner})` }}
+                />
+                <div
+                  className="h-72 md:h-80 bg-cover bg-center"
+                  style={{ backgroundImage: `url(${IMAGES.ownerSerdal})` }}
+                />
+              </div>
+              <div className="p-6 text-center">
+                <h4 className="font-display font-bold text-xl text-text-base">Bringing Turkish Ice Cream Magic to Jakarta</h4>
+                <p className="text-text-subtle font-medium mt-2">Since 2011, creating smiles and unforgettable memories</p>
               </div>
             </div>
-            <div className="bg-white rounded-2xl overflow-hidden border border-text-base/5 shadow-lg group">
-              <div
-                className="h-64 bg-cover bg-center transition-transform duration-500 group-hover:scale-105"
-                style={{ backgroundImage: `url(${IMAGES.ownerSerdal})` }}
-              />
-              <div className="p-5">
-                <h3 className="font-display font-bold text-xl text-text-base">Our Showman</h3>
-                <p className="text-text-subtle font-medium mt-1">Professional Turkish ice cream performer & entertainer</p>
+          </div>
+
+          {/* Our Showmen in Action - Running Carousel */}
+          <div className="mt-16">
+            <h3 className="font-display font-bold text-2xl text-text-base text-center mb-8">Our Showmen in Action</h3>
+            <div className="relative overflow-hidden rounded-2xl">
+              <div className="flex animate-scroll gap-4">
+                {[IMAGES.showman1, IMAGES.showman2, IMAGES.showman3, IMAGES.showman1, IMAGES.showman2, IMAGES.showman3].map((img, i) => (
+                  <div
+                    key={i}
+                    className="flex-shrink-0 w-80 h-64 rounded-xl overflow-hidden shadow-lg"
+                  >
+                    <img
+                      src={img}
+                      alt={`Showman performance ${(i % 3) + 1}`}
+                      className="w-full h-full object-cover"
+                    />
+                  </div>
+                ))}
               </div>
             </div>
+            <p className="text-center text-text-subtle font-medium mt-4">Professional Turkish ice cream performers & entertainers</p>
           </div>
         </div>
       </section>
