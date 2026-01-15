@@ -273,7 +273,7 @@ export const CONTACT_DATA = {
   tag: 'Contact & Booking',
   title: 'Ready to Book?',
   description: 'Fastest way: WhatsApp message for availability and price.',
-  whatsappTemplate: `Hello ZAHRA, I want to book Turkish ice cream showman.
+  whatsappTemplate: `Selam ZAHRA, I want to book Turkish ice cream showman.
 
 Date:
 City:
