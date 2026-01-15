@@ -155,6 +155,44 @@ export const GALLERY_DATA = {
   ],
 };
 
+export const VIDEOS_DATA = {
+  tag: 'Videos',
+  title: 'Watch the Magic',
+  description: 'See our showman in action — entertaining crowds with traditional Turkish ice cream tricks.',
+  videos: [
+    {
+      id: 'OaIp05232iU',
+      title: 'Turkish Magic Ice Cream Jakarta',
+      description: 'The magical vendor performance that started it all',
+    },
+    {
+      id: '7Fiaked7yeU',
+      title: 'Zahra Turkish Ice Cream Penyajian Unik',
+      description: 'Our unique showman-style serving experience',
+    },
+    {
+      id: '-IBPn-nQ5UE',
+      title: 'Ice Cream Zahra Turkish',
+      description: 'Kids love our playful ice cream tricks',
+    },
+    {
+      id: '-W6Ud3bItho',
+      title: 'ZAHRA at Gelato Ice Cream Fest Jakarta 2019',
+      description: 'Big Bang Jakarta event performance',
+    },
+    {
+      id: 'jLp664Tt8_o',
+      title: 'Es Krim Turki Zahra Rame Pengunjung',
+      description: 'Crowds enjoying our Turkish ice cream',
+    },
+    {
+      id: 'ZYPg3xmCnH8',
+      title: 'ZAHRA Turkish Ice Cream PRJ',
+      description: 'Pekan Raya Jakarta performance',
+    },
+  ],
+};
+
 export const FAQ_DATA = {
   tag: 'FAQ',
   title: 'Frequently Asked Questions',
