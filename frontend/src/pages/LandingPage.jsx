@@ -486,7 +486,7 @@ const LandingPage = () => {
 
           <div className="text-center mt-8">
             <a
-              href="https://www.youtube.com/@zahraturkishicecream4421"
+              href={VIDEOS_DATA.channelUrl}
               target="_blank"
               rel="noopener noreferrer"
             >
